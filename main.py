@@ -170,7 +170,7 @@ def main():
         ])
         
         st.dataframe(
-            condition_df.style.background_gradient(subset=['목표 EC'], cmap='YlOrRd'),
+            condition_df,
             hide_index=True,
             use_container_width=True
         )
